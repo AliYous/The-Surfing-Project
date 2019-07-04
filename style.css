@@ -1,3 +1,8 @@
+body{
+    font-family: 'Slabo 27px', serif;
+
+}
+
 .border-flex{
     border: 2px solid red;
 }
@@ -6,9 +11,11 @@
     height: 500px;
     background-image: url("img/surf.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
 
@@ -24,4 +31,14 @@
 
   .icons{
       font-size: 120px;
+  }
+
+  p{
+      text-align: left;
+      font-family: 'PT Serif', serif;  
+  } 
+
+  .container-fluid{
+      display: flex;
+      flex-direction: row;
   }
