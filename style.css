@@ -1,0 +1,27 @@
+.border-flex{
+    border: 2px solid red;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url("img/surf.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .btn{
+      font-size: 15px;
+  }
+
+  .btntop{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .icons{
+      font-size: 120px;
+  }
